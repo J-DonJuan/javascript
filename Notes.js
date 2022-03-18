@@ -48,3 +48,72 @@ var array = {
 
 
 
+// JavaScript terminology review!
+// -Function declaration is out creation of functions
+function funcName() {
+
+}
+
+// -Function expression is a way for us to create functions with a variable by basically creating an anonymous function &
+//  assigning it to a variable.
+let newFunc = function() { // Assigns anonymous function to a variable
+
+}
+
+// -An expression is something that produces a value
+4+3
+
+// -Calling or invoking a function 
+funcName();
+
+// function vs method
+function thisIsAFunction(){
+
+}
+
+var obj = {
+    thisIsAMethod: function() {
+
+    }
+}
+
+// calling a method vs function
+thisIsAFunction();
+obj.thisIsAMethod;
+
+
+
+
+//Loops
+
+var todos = [
+    "clean room",
+    "brush teeth",
+    "take out trash",
+    "study"
+]
+
+//Standard for loop iterating over todos
+for (let i = 0; i < todos.length; i++){
+    console.log(todos[i]);
+}
+
+//Standard forEach loop
+todos.forEach(function(element, index){
+    console.log(element + " has an index: " + index);
+})
+
+
+// Checks condition first before executing code
+let counter = 0;
+while (counter < 10){
+    console.log(counter);
+    counter++;
+}
+
+// Do while loop, executes code at least once before checking the condition
+let counterTwo = 10
+do {
+    console.log(counterTwo);
+    counterTwo--;
+} while(counterTwo > 0);

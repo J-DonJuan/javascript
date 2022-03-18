@@ -23,5 +23,5 @@ var list = [
     }
 ]
 
-// Methods are simply functions inside an object.
+
 
