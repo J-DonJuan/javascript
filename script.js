@@ -1,1 +1,1 @@
-alert("You're smart!");
+let list = [["tiger", "cat", "bear", "bird"], "Hello"];
